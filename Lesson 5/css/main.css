@@ -1,0 +1,88 @@
+/* h2 {
+  color: red;
+  display: inline;
+}
+
+a {
+  display: block;
+} */
+
+body {
+  font-family: sans-serif;
+}
+
+/* .birinchi {
+  margin: 0;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  padding: 10px 20px;
+  padding: 40px 30px 20px 10px;
+  padding: 20px 0 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  margin: 10px 20px 30px 40px;
+} */
+
+/* .ikkinchi {
+  background-color: green;
+  color: white;
+  margin: 0;
+} */
+
+body {
+  background-color: #e5e5e5;
+}
+
+/* Services section */
+
+.services__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.line {
+  width: 56px;
+  height: 3px;
+  background-color: black;
+  border: none;
+}
+
+.services__description {
+  color: #7d7987;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+
+.services__list {
+  list-style: none;
+}
+
+.services__list-item {
+  border: 2px dotted black;
+  margin-right: 37px;
+  border-radius: 20px;
+  padding: 54px 40px;
+  display: inline-block;
+  /* vertical-align: middle; */
+  vertical-align: top;
+  width: 350px;
+  background-color: #fff;
+}
+
+.service__heading {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.service__info {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+/* End of Services section */
