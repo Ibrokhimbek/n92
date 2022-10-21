@@ -1,0 +1,134 @@
+/* Universal selector */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1120px;
+  border: 1px solid blue;
+  margin: 0 auto;
+}
+
+/* Services section */
+.services__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.services__list-item {
+  border: 1px solid red;
+  width: 350px;
+  background-color: #fff;
+  padding: 40px 47px;
+}
+
+.services__list-item h3 {
+margin: 25px 0 15px;
+}
+/* End of Services section */
+
+/* Boxes section */
+/* .boxes__container {
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: stretch;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} */
+
+/* .box {
+  width: 350px;
+  background-color: red;
+  border: 1px solid black;
+} */
+/* End of Boxes section */
+
+/* .div1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.div2 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid blue;
+  padding: 10px 20px;
+} */
+
+/* .paragraf {
+  font-size: 22px;
+  color: #000;
+}
+
+.red {
+  color: red;
+  font-size: 35px;
+} */
+
+/* Articles section */
+/* .articles__title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.line {
+  width: 56px;
+  height: 2px;
+  margin: 26px auto 72px;
+  background-color: #000;
+  border: none;
+}
+
+.articles__list-item {
+  width: 350px;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.articles__list-item img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.article__info-wrapper {
+  padding: 35px 42px;
+}
+
+.article__caption {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.article__description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+
+.article__link {
+  text-decoration: none;
+  color: #4089ed;
+} */
+/* End of Articles section */
