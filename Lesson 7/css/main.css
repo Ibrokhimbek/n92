@@ -7,8 +7,46 @@
 .container {
   max-width: 1120px;
   margin: 0 auto;
+  border: 1px solid blue;
 }
 
 /* Articles section */
+.articles__list {
+  /* height: 500px; */
+  list-style: none;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 
+.articles__list-item {
+  width: 350px;
+  border: 1px solid red;
+}
+
+.article__img {
+  width: 100%;
+}
+
+.article__info-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* .article-1 {
+  order: 1;
+}
+
+.article-2 {
+  order: 3;
+}
+
+.article-3 {
+  order: 2;
+} */
 /* End of Articles section */
