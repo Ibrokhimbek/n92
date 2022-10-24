@@ -42,12 +42,30 @@
 body {
   font-family: "Mulish", sans-serif;
   font-weight: 300;
+  margin: 40px;
 }
 
 .container {
   max-width: 1120px;
   margin: 0 auto;
   border: 1px solid blue;
+}
+
+.btn {
+  /* opacity: 0.1; */
+  color: #458ff6;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1.5px solid #458ff6;
+  padding: 18px 65px;
+  border-radius: 55px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  /* opacity: 0.5; */
+  color: #fff;
+  background-color: #458ff6;
 }
 
 /* Articles section */
@@ -77,6 +95,15 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: 700;
+}
+
+.article__info-description {
+  /* word-spacing: 10px; */
+  /* line-height: 30px; */
+  /* letter-spacing: 10px; */
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
 }
 
 /* .article-1 {
