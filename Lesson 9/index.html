@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Lesson 9</title>
+  </head>
+  <body>
+    <main>
+      <!-- Feedback section -->
+      <section class="feedback">
+        <div class="container">
+          <h2 class="feedback__title">Feedback</h2>
+          <form class="feedback__form">
+            <input type="text" placeholder="Name"/>
+            <input type="email" placeholder="Email"/>
+            <input type="tel" placeholder="Phone"/>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+      <!-- End of Feedback section -->
+    </main>
+
+    <!-- Form -->
+    <form style="display: none">
+      <fieldset>
+        <legend>Personal info</legend>
+        <!-- Text -->
+        <!-- <input type="text" placeholder="Name"> -->
+        <label for="nameInput">
+          Name:
+          <!-- <input type="text" id="nameInput" value="Ibrohim" /> -->
+          <input
+            type="text"
+            id="nameInput"
+            minlength="5"
+            maxlength="20"
+            name="name"
+            required
+            disabled
+          />
+        </label>
+        <br />
+        <!-- Number -->
+        <label for="ageInput">Age:</label>
+        <!-- <input type="number" placeholder="Age" id="ageInput" value="99" /> -->
+        <input
+          type="number"
+          id="ageInput"
+          max="90"
+          min="18"
+          name="age"
+          required
+        />
+        <br />
+
+        <!-- Email -->
+        <label for="emailInput">
+          Email:
+          <input type="email" id="emailInput" name="email" />
+        </label>
+        <br />
+
+        <!-- Password -->
+        <label for="passwordInput">
+          Password:
+          <input type="password" id="passwordInput" name="password" />
+        </label>
+        <br />
+
+        <label for="car">
+          <input type="checkbox" id="car" name="hasCar" checked />
+          Car
+        </label>
+        <br />
+        <label for="home">
+          <input type="checkbox" id="home" name="hasHome" checked disabled />
+          Home
+        </label>
+        <br />
+
+        <!-- Radio -->
+        <label for="male">
+          <input type="radio" id="male" name="gender" />
+          Male
+        </label>
+        <label for="female">
+          <input type="radio" id="female" name="gender" />
+          Female
+        </label>
+        <label for="other">
+          <input type="radio" id="other" name="gender" />
+          Other
+        </label>
+        <br />
+
+        <!-- Textarea -->
+        <textarea name="message" id="message" cols="60" rows="5"> </textarea>
+        <br />
+
+        <!-- Date -->
+        <input type="date" />
+        <input type="datetime-local" />
+        <input type="color" />
+        <input type="file" />
+        <input type="search" />
+        <br />
+
+        <!-- Submit -->
+        <input type="submit" value="Jo'natish" />
+        <button type="submit">Tasdiqlash</button>
+        <br />
+        <!-- Reset -->
+        <input type="reset" />
+        <button type="reset">Yangilash</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+/* .class */
+/* #nameInput {
+  color: red;
+} */
+
+/* #message {
+  resize: none;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Feedback section */
+
+.feedback__title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+  color: #01374b;
+  margin-bottom: 60px;
+}
+
+.feedback__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feedback__form input,
+button {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.feedback__form input {
+  color: #01374b;
+  min-width: 345px;
+  border: none;
+  border-bottom: 2px solid #949b9e;
+  padding: 10px 0;
+  outline: none;
+}
+
+.feedback__form input:focus {
+  border-bottom: 2px solid #01374b;
+}
+
+.feedback__form input::placeholder {
+  color: #949b9e;
+}
+
+.feedback__form button[type="submit"] {
+  padding: 10px 70px;
+  background-color: #049fd9;
+  border: 1px solid #049fd9;
+  color: white;
+  /* transition: all 0.3s ease; */
+}
+
+.feedback__form button[type="submit"]:active {
+  background-color: #049bd2;
+}
+
+.feedback__form button[type="submit"]:hover {
+  color: #049fd9;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* End of Feedback section */
