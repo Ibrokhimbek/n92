@@ -1,0 +1,191 @@
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 2500px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #ff8e8e;
+  z-index: 9999;
+}
+
+.header__container {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #373737;
+}
+/*
+.fixed__btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sticky__section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+} 
+*/
+/* Hero section */
+ .hero {
+  padding-top: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__container {
+  padding: 120px 0 186px;
+  background-image: url(../img/student.png);
+  background-repeat: no-repeat;
+  background-position: bottom right 20px;
+}
+
+.bg-oval {
+  position: absolute;
+  bottom: -168px;
+  left: calc(50% + 125px);
+  display: block;
+  width: 1030px;
+  height: 580px;
+  background-image: url(../img/bg-oval.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.hero__title {
+  max-width: 450px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 66px;
+  color: #2f2f2f;
+}
+
+.inner__text {
+  color: #717cff;
+}
+
+.hero__discription {
+  max-width: 630px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7d7d7d;
+  margin: 45px 0;
+}
+
+.hero__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 11px;
+  background-color: #717cff;
+  color: #ffffff;
+  padding: 20px 90px 20px 34px;
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center right 32px;
+  transition: all 0.3s ease;
+}
+
+.hero__link:hover {
+  box-shadow: inset 10px 0px 25px -5px rgba(0, 0, 0, 0.75);
+}
+
+.bg-img {
+  height: 800px;
+  background-image: url(../img/bg-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* .box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+
+.box::before {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  right: calc(50% - 12.5px);
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: rgb(20, 208, 20);
+  display: block;
+  border-radius: 50%;
+}
+
+.box::after {
+  position: absolute;
+  top: calc(50% - 1px);
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  display: block;
+} */
+
+/* .status {
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  bottom: -10px;
+  display: block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+  z-index: 9999;
+}
+
+.status-2 {
+  display: block;
+  position: absolute;
+  left: calc(50% - 12.5px);
+  bottom: -12.5px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 1;
+} */
