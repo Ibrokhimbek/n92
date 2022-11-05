@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: red;
+}
+
+.logo span {
+  color: blue;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav__list-item a {
+  font-size: 20px;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown__menu {
+  display: block;
+}
+
+.dropdown .dropdown__menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  border: 1px solid black;
+}
+
+.dropdown__menu-item {
+  padding: 10px;
+}
+
+.dropdown__menu-item a {
+  white-space: nowrap;
+}
+
+.dropdown__menu-item:hover a {
+  color: white;
+}
+
+.dropdown__menu .dropdown__menu-item:hover {
+  background-color: grey;
+}
