@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.box {
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#webDevelopment {
+  background-color: red;
+}
+
+#telegramBot {
+  background-color: green;
+}
+
+#smm {
+  background-color: lightcoral;
+}
+
+#graphicDesign {
+  background-color: blue;
+}
+
+#CRMsystems {
+  background-color: blueviolet;
+}
