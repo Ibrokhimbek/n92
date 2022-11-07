@@ -10,7 +10,25 @@ html {
   scroll-behavior: smooth;
 }
 
-.box {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Process section */
+.process__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.process:nth-child(even) .process__container {
+  flex-direction: row-reverse;
+}
+/* End of Process section */
+
+/* .box {
   border: 1px solid black;
   height: 100vh;
   display: flex;
@@ -37,4 +55,4 @@ html {
 
 #CRMsystems {
   background-color: blueviolet;
-}
+} */
