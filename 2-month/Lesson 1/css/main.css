@@ -15,8 +15,56 @@ html {
   margin: 0 auto;
 }
 
+.menu {
+  position: relative;
+  padding: 60px;
+  color: white;
+  background-color: black;
+}
+
+.menu ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu ul li {
+  position: relative;
+  padding-left: 30px;
+}
+
+.menu ul li::before {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 0;
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.tg::before {
+  background-image: url(../images/icon__telegram.svg);
+}
+.fc::before {
+  background-image: url(../images/icon__facebook.svg);
+}
+.ins::before {
+  background-image: url(../images/icon__instagram.svg);
+}
+
 /* Process section */
-.process__container {
+/* .process__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +73,7 @@ html {
 
 .process:nth-child(even) .process__container {
   flex-direction: row-reverse;
-}
+} */
 /* End of Process section */
 
 /* .box {
