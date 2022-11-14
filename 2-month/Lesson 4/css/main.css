@@ -1,0 +1,22 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper__container {
+  height: 500px;
+  background-image: url(../images/greenline.jpeg);
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  .wrapper__container {
+    background-image: url(../images/greenline@2x.jpeg);
+  }
+  /* Retina-specific stuff here */
+} 
