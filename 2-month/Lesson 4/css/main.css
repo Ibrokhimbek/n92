@@ -1,3 +1,29 @@
+html::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+  background-color: #cccccc;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+  background-color: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 25%,
+    transparent 100%,
+    rgba(0, 0, 0, 1) 75%,
+    transparent
+  );
+}
+
+body {
+  height: 3000px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -8,7 +34,7 @@
   background-image: url(../images/greenline.jpeg);
 }
 
-@media
+/* @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
@@ -18,5 +44,4 @@ only screen and (                min-resolution: 2dppx) {
   .wrapper__container {
     background-image: url(../images/greenline@2x.jpeg);
   }
-  /* Retina-specific stuff here */
-} 
+}  */
