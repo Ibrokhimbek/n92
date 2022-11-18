@@ -1,0 +1,60 @@
+/* Desktop first */
+/* body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+@media (max-width: 525px) {
+  body {
+    background-color: green;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 526px) and (max-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+} */
+
+/* Mobile first */
+/* body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+@media (min-width: 525px) and (max-width: 1024px) {
+  body {
+    background-color: white;
+  }
+
+  h1 {
+    color: black;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    background-color: green;
+  }
+
+  h1 {
+    color: white;
+    font-size: 150px;
+  }
+} */
