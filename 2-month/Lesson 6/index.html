@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson 6</title>
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-  <h1>Hello Uzbekistan!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 6</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <picture>
+      <!-- Webp -->
+      <source
+        type="image/webp"
+        media="(max-width: 525px)"
+        srcset="
+          ./images/coffee-mobile.webp    1x,
+          ./images/coffee-mobile@2x.webp 2x
+        "
+      />
+
+      <source
+        type="image/webp"
+        media="(max-width: 768px)"
+        srcset="
+          ./images/coffee-tablet.webp    1x,
+          ./images/coffee-tablet@2x.webp 2x
+        "
+      />
+
+      <source
+        type="image/webp"
+        srcset="
+          ./images/coffee-desktop.webp    1x,
+          ./images/coffee-desktop@2x.webp 2x
+        "
+      />
+
+      <!-- JPG -->
+      <source
+        media="(max-width: 525px)"
+        srcset="./images/coffee-mobile.jpg 1x, ./images/coffee-mobile@2x.jpg 2x"
+      />
+
+      <source
+        media="(max-width: 768px)"
+        srcset="./images/coffee-tablet.jpg 1x, ./images/coffee-tablet@2x.jpg 2x"
+      />
+
+      <img
+        src="./images/coffee-desktop.jpg"
+        srcset="
+          ./images/coffee-desktop.jpg    1x,
+          ./images/coffee-desktop@2x.jpg 2x
+        "
+        alt="A man making coffee"
+        width="300"
+      />
+    </picture>
+
+    <!-- <h1>Hello Uzbekistan!</h1> -->
+  </body>
 </html>
