@@ -1,0 +1,42 @@
+p {
+  color: blue;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.card__title {
+  font-size: 25px;
+  color: red;
+}
+.card__info {
+  font-size: 18px;
+  color: blueviolet;
+}
+.card__info .inner__text {
+  color: pink;
+}
+
+@media (max-width: 525px) {
+  .card {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  .card__title {
+    font-size: 25px;
+    color: red;
+  }
+  .card__info {
+    font-size: 18px;
+    color: blueviolet;
+  }
+  .card__info .inner__text {
+    color: pink;
+  }
+}
+.btn {
+  color: red;
+}/*# sourceMappingURL=main.css.map */
