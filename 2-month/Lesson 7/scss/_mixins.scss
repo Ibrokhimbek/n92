@@ -1,0 +1,44 @@
+@mixin buttonWithDefaults(
+  $border-cl: orange,
+  $font-cl: orange,
+  $bg-cl: transparent,
+  $bg-hover: orange,
+  $font-cl-hover: white
+) {
+  text-decoration: none;
+  padding: 12px 22px;
+  border: 1px solid $border-cl;
+  color: $font-cl;
+  background-color: $bg-cl;
+
+  &:hover {
+    background-color: $bg-hover;
+    color: $font-cl-hover;
+  }
+}
+
+@mixin buttonWithProps($border-cl, $font-cl, $bg-cl, $bg-hover, $font-cl-hover) {
+  text-decoration: none;
+  padding: 12px 22px;
+  border: 1px solid $border-cl;
+  color: $font-cl;
+  background-color: $bg-cl;
+
+  &:hover {
+    background-color: $bg-hover;
+    color: $font-cl-hover;
+  }
+}
+
+@mixin simpleButton {
+  text-decoration: none;
+  padding: 12px 22px;
+  border: 1px solid orange;
+  color: orange;
+  background-color: transparent;
+
+  &:hover {
+    background-color: orange;
+    color: black;
+  }
+}

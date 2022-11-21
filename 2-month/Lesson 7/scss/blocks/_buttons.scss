@@ -1,0 +1,32 @@
+.btn {
+  @include button();
+}
+
+.btn__download {
+  @include button(black, black, white, red, white);
+}
+
+.btn__green {
+  @include button(green, green, transparent, green, white)
+}
+
+.btn__pink {
+  @include button(pink, pink, black, pink, red)
+}
+
+// .btn {
+//   @include button(orange, red, pink, black, white);
+// }
+
+// .btn__download {
+//   @include button(red, orange, yellow, white, black);
+// }
+
+
+// .btn {
+//   @include button;
+// }
+
+// .btn__download {
+//   @include button;
+// }
