@@ -1,3 +1,20 @@
+@mixin button($color, $bg-color) {
+  color: $color;
+  padding: 12px 24px;
+  background-color: $bg-color;
+  border: 1px solid $color;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color;
+    @if $bg-color == transparent {
+      color: white;
+    }@else{
+      color: $bg-color;
+    }
+  }
+}
+
 @mixin heading() {
   font-weight: 700;
   font-size: 60px;

@@ -1,21 +1,30 @@
-.hero__title {
-  @include heading;
-}
-
-.second {
-  @include heading;
-}
-
-%button {
-  border: 1px solid black;
-  color: red;
-  padding: 12px 24px;
-}
-
-.third {
-  @extend %button;
-}
-
 .btn {
-  @extend %button;
+  @include button($green, $grey);
+  display: inline-block;
 }
+
+.btn-second {
+  @include button($green, transparent);
+}
+
+// .hero__title {
+//   @include heading;
+// }
+
+// .second {
+//   @include heading;
+// }
+
+// %button {
+//   border: 1px solid black;
+//   color: red;
+//   padding: 12px 24px;
+// }
+
+// .third {
+//   @extend %button;
+// }
+
+// .btn {
+//   @extend %button;
+// }
