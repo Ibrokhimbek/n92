@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  text-transform: uppercase;
+  color: #485156;
+}
+.hero__title span {
+  color: #39A935;
+}
+
+.second {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  text-transform: uppercase;
+  color: #485156;
+}
+.second span {
+  color: #39A935;
+}
+
+.btn, .third {
+  border: 1px solid black;
+  color: red;
+  padding: 12px 24px;
+}/*# sourceMappingURL=main.css.map */

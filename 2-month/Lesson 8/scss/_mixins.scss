@@ -1,0 +1,11 @@
+@mixin heading() {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  text-transform: uppercase;
+  color: $grey;
+
+  span {
+    color: $green;
+  }
+}
