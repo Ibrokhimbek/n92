@@ -166,4 +166,33 @@ body {
 .service__btn:hover {
   background-color: #fff;
   color: transparent;
+}
+
+@media (max-width: 525px) {
+  .hero {
+    padding-top: 140px;
+  }
+  .hero__container .title {
+    font-size: 30px;
+  }
+  .hero__btns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .hero {
+    background-image: url(../../images/hero__bg.jpeg);
+    background-size: cover;
+    background-position: unset;
+  }
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__container .title,
+.info {
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
