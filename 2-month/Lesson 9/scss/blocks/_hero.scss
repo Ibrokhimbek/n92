@@ -7,30 +7,6 @@
   background-position: right bottom;
 }
 
-.subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 106.5%;
-  color: $orange;
-}
-
-.hero__container .title {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 94.5%;
-  color: $white;
-  max-width: 513px;
-  margin: 22px 0;
-}
-
-.hero__container .info {
-  max-width: 350px;
-  color: $grey;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 106.5%;
-}
-
 .hero__container .hero__btns {
   display: flex;
   gap: 40px;
