@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  /* background: linear-gradient(45deg, blue, red); */
+  /* background-color: linear-gradient(45deg, blue, red); not work */
+  /* background-image: url(), linear-gradient(45deg, blue, red); */
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+}
+
+#modalCheckbox {
+  appearance: none;
+}
+
+#modalCheckbox:checked + .modal__wrapper {
+  display: flex;
+}
+
+.modal__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.558);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  position: absolute;
+  border: 1px solid grey;
+  background-color: white;
+  max-width: 300px;
+}
+
+.modal__trigger {
+  padding: 12px 24px ;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid blueviolet;
+  transition: all .4s ease;
+}
+
+.modal__trigger:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
