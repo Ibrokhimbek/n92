@@ -46,4 +46,10 @@
 // var username = prompt("Ismingiz nima?");
 // console.log(username);
 
+//? Amaliyot
+// var username = prompt("Enter your username:");
+// var birthYear = prompt("Enter your birth year:");
 
+// var userAge = 2022 - birthYear;
+// var template = `Assalamu alaikum ${username} aka! Sizning yoshingiz ${userAge}da.`;
+// alert(template);
