@@ -10,3 +10,6 @@
 //* undefined
 // var x;
 // console.log(x);
+// 
+//* BigInt => BigInt()
+//* Symbol("Hello") = Symbol("Hello")
