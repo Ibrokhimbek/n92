@@ -49,3 +49,8 @@
 // console.log(window);
 // window.alert("Hello");
 // console.log(window.x);
+
+// window.alert = null;
+// alert("Hello");
+
+// console.log(Math.PI);
