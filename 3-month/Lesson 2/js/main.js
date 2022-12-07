@@ -54,3 +54,14 @@
 // alert("Hello");
 
 // console.log(Math.PI);
+
+//? Comparison operators
+// var x = 3<4
+// var y = 3>4
+// var z = 4==4
+// console.log(4>=5);
+// console.log(4<=5);
+
+// console.log(3=="3"); // true
+// console.log(4>="3"); // true
+// console.log(3==="3");
