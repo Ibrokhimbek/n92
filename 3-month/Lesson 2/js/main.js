@@ -10,6 +10,14 @@
 //* undefined
 // var x;
 // console.log(x);
-// 
+//
 //* BigInt => BigInt()
 //* Symbol("Hello") = Symbol("Hello")
+
+//? Object
+var user = {
+  name: "Usmon",
+  age: 22,
+  isMerried: false,
+};
+console.log(user);
