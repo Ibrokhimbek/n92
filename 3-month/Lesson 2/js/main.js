@@ -26,9 +26,26 @@
 //   },
 // };
 
+//* Objectga yangi ma'lumot qo'shish
+// user.year = 1999;
+// user["year"] = 1999;
+// console.log(user);
+
+//* Objectdagi ma'lumotni o'zgartirish
+// user.name = "Ibrohim";
+// user["name"] = "Ibrohim";
+
+// console.log(user.name);
+
 // var x = "education";
 
 // console.log(user.name, user.age);
 // console.log(user.education.region);
 // console.log(user.x);
 // console.log(user[x]);
+
+// var x = "Hello from N92";
+
+// console.log(window);
+// window.alert("Hello");
+// console.log(window.x);
