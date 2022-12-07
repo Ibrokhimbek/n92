@@ -65,3 +65,25 @@
 // console.log(3=="3"); // true
 // console.log(4>="3"); // true
 // console.log(3==="3");
+
+// console.log("Abc" === "Abc");
+// console.log("null" == null);
+
+//? if else statements
+// var username = "qabristanskiy";
+// var userpassword = 123;
+
+var user = {
+  username: "qabristanskiy",
+  password: 123,
+};
+var instaUsername = prompt("Enter your instagram username");
+var instaPassword = prompt("Enter your password");
+
+if (user.username == instaUsername) {
+  alert("Welcome to the website with USERNAME!");
+} else if (user.password == instaPassword) {
+  alert("Welcome to the website with PASSWORD!");
+} else {
+  alert("Siz " + instaUsername + " ekansiz! Sizga ruxsat yo'q!");
+}
