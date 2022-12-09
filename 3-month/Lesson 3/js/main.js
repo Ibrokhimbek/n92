@@ -27,3 +27,12 @@
 //? confirm
 // const isApproved = confirm("Do you really want to delete it?");
 // console.log(isApproved);
+
+//? Truethy vs Falsy values
+//! Falsy values
+//* 0, "", null, undefined, NaN, false
+// if (0) {
+//   console.log("Hello");
+// } else {
+//   console.log("This is NaN");
+// }
