@@ -47,3 +47,13 @@
 // } else {
 //   alert("Bo'sh string");
 // }
+
+//? DOM => Document object model
+// console.log(window);
+
+//? Functions
+function sayHello() {
+  alert("Assalomu alaykum!");
+}
+
+sayHello();
