@@ -64,3 +64,9 @@
 // }
 
 // sayHello();
+
+//* Amaliyot
+// function clicker(num) {
+//   const firstname = prompt("Enter your firstname:");
+//   alert("Hello " + firstname + " " + num);
+// }
