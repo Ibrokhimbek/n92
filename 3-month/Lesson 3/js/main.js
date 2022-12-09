@@ -36,3 +36,14 @@
 // } else {
 //   console.log("This is NaN");
 // }
+
+//* Amaliyot
+// const text = prompt("Enter text:");
+
+// if (text) {
+//   alert(text);
+// } else if (text === "Hello") {
+//   alert("Hello yozildi");
+// } else {
+//   alert("Bo'sh string");
+// }
