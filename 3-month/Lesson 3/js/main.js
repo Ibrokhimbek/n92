@@ -52,8 +52,15 @@
 // console.log(window);
 
 //? Functions
-function sayHello() {
-  alert("Assalomu alaykum!");
-}
 
-sayHello();
+// const username = prompt("Enter your username:");
+
+// function sayHello(name = "Noma'lum") {
+//   if (name) {
+//     alert(`Assalomu alaykum ${name} aka!`);
+//   } else {
+//     alert("Assalamu alaikum hurmatli mijoz!");
+//   }
+// }
+
+// sayHello();
