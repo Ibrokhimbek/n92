@@ -70,3 +70,13 @@
 //   const firstname = prompt("Enter your firstname:");
 //   alert("Hello " + firstname + " " + num);
 // }
+
+//* Amaliyot
+const firstNum = Number(prompt("Enter first number:"));
+const secondNum = Number(prompt("Enter second number:"));
+
+function sum(x, y) {
+  alert(x + y);
+}
+
+sum(firstNum, secondNum);
