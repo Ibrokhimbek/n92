@@ -89,3 +89,12 @@
 //   names[names.length] = username;
 //   console.log(names);
 // };
+
+//* Amaliyot for DOM
+// const btnEl = document.getElementById("btn");
+// const textEl = document.getElementById("text");
+
+// btnEl.onclick = function () {
+//   const newText = prompt("Enter text:");
+//   textEl.textContent = textEl.textContent + newText;
+// };
