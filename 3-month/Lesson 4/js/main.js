@@ -40,10 +40,23 @@
 // console.log(users);
 
 //* Amaliyot
-const names = [];
+// const names = [];
 
-function addUsers() {
-  const username = prompt("Enter your name:");
-  names[names.length] = username;
-  console.log(names);
-}
+// function addUsers() {
+//   const username = prompt("Enter your name:");
+//   names[names.length] = username;
+//   console.log(names);
+// }
+
+//? Logical and (&&) vs or (||)
+
+// const cola = false;
+// const pepsi = false;
+
+// if (cola && pepsi) {
+//   console.log("Xechnima olmayman");
+// } else if (cola || pepsi) {
+//   console.log("Pepsidan 2 ta olaman");
+// } else {
+//   console.log("Boshqa magazinga boraman");
+// }
