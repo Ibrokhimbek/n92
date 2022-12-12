@@ -109,3 +109,17 @@
 
 // const pEls = document.getElementsByTagName("p");
 // console.log(pEls);
+
+//? Function declaration, expression, arrow
+//* Declaration
+function name() {
+  return "Hello";
+}
+//* Expression
+const name2 = function () {
+  return "Hello";
+};
+//* Arrow function
+const name3 = () => {
+  return "Hello";
+};
