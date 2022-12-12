@@ -38,3 +38,12 @@
 // users[users.length] = "Abbos";
 
 // console.log(users);
+
+//* Amaliyot
+const names = [];
+
+function addUsers() {
+  const username = prompt("Enter your name:");
+  names[names.length] = username;
+  console.log(names);
+}
