@@ -112,14 +112,14 @@
 
 //? Function declaration, expression, arrow
 //* Declaration
-function name() {
+function name(x, y) {
   return "Hello";
 }
 //* Expression
-const name2 = function () {
+const name2 = function (x, y) {
   return "Hello";
 };
 //* Arrow function
-const name3 = () => {
+const name3 = (x, y) => {
   return "Hello";
 };
