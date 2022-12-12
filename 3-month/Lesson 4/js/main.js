@@ -60,3 +60,17 @@
 // } else {
 //   console.log("Boshqa magazinga boraman");
 // }
+
+// const user = {
+//   name: "ko'chinskiy",
+//   password: 0000,
+// };
+
+// const username = prompt("Enter your username:");
+// const password = prompt("Enter your password");
+
+// if (username == user.name || password == user.password) {
+//   console.log("Welcome to the website!");
+// } else {
+//   console.log("Ko'chenga yo'qol");
+// }
