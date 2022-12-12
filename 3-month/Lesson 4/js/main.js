@@ -74,3 +74,14 @@
 // } else {
 //   console.log("Ko'chenga yo'qol");
 // }
+
+//? return in functions
+function sum(x, y) {
+  const result = x + y;
+  return result;
+}
+
+const num = sum(328923, 9332232);
+const num2 = sum(90, 70);
+
+console.log(num2);
