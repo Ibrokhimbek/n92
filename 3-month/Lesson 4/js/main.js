@@ -98,3 +98,14 @@
 //   const newText = prompt("Enter text:");
 //   textEl.textContent = textEl.textContent + newText;
 // };
+
+//? getting elements from html
+//* getElementById(), getElementsByClassName(), getElementsByName(), getElementsByTagName()
+// const pEls = document.getElementsByClassName("paragraf");
+// console.dir(pEls[0]);
+
+// const inputEls = document.getElementsByName("car");
+// console.log(inputEls);
+
+// const pEls = document.getElementsByTagName("p");
+// console.log(pEls);
