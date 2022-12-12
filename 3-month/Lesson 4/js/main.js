@@ -39,15 +39,6 @@
 
 // console.log(users);
 
-//* Amaliyot
-// const names = [];
-
-// function addUsers() {
-//   const username = prompt("Enter your name:");
-//   names[names.length] = username;
-//   console.log(names);
-// }
-
 //? Logical and (&&) vs or (||)
 
 // const cola = false;
@@ -76,12 +67,25 @@
 // }
 
 //? return in functions
-function sum(x, y) {
-  const result = x + y;
-  return result;
-}
+// function sum(x, y) {
+//   const result = x + y;
+//   return result;
+// }
 
-const num = sum(328923, 9332232);
-const num2 = sum(90, 70);
+// const num = sum(328923, 9332232);
+// const num2 = sum(90, 70);
 
-console.log(num2);
+// console.log(num2);
+
+//? DOM => Document object model
+// const btnEl = document.getElementById("btn");
+// btnEl.textContent = "Hello";
+
+//* Amaliyot
+// const names = [];
+
+// btnEl.onclick = function addUsers() {
+//   const username = prompt("Enter your name:");
+//   names[names.length] = username;
+//   console.log(names);
+// };
