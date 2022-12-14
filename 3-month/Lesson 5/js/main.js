@@ -37,3 +37,15 @@
 //     alert("Please, create new account!");
 //   }
 // };
+
+//? not in comparison
+// if (!true) {
+//   console.log(1);
+// } else {
+//   console.log(2);
+// }
+// if (4 !== 4) {
+//   console.log(1);
+// } else {
+//   console.log(2);
+// }
