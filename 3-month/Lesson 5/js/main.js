@@ -62,3 +62,29 @@
 // }
 
 // console.log(username);
+
+//? for loop
+// for (let i = 0; i <= 100; i++) {
+//   console.log(i);
+// }
+
+//? loops with arrays
+// const arr = [
+//   "Ibrohim",
+//   "Akmal",
+//   "Mirbosit",
+//   "Jasur",
+//   "Abdulhamid",
+//   "Abdulloh",
+//   "Abdulla",
+//   "Mishkabek",
+//   "Abdulloh",
+// ];
+
+// const username = prompt("Username");
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === username) {
+//     alert(`Bu ism ${i}chi tartibda ro'yxatda mavjud `);
+//   }
+// }
