@@ -88,3 +88,13 @@
 //     alert(`Bu ism ${i}chi tartibda ro'yxatda mavjud `);
 //   }
 // }
+
+//? Array methods => push, pop, unshift, shift
+const arr = [1, false, 3, undefined, 5, 6];
+//* push
+// const returnedData = arr.push("Ibrohim", 12, 12, 12, 12);
+// console.log(returnedData);
+//* pop()
+// const data = arr.pop();
+// console.log(arr);
+// console.log(data);
