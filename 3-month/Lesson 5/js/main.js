@@ -49,3 +49,16 @@
 // } else {
 //   console.log(2);
 // }
+
+//? ternary operator
+// const ism = prompt("Ismingizni kiriting!");
+
+// let username = ism ? ism : "Hurmatli mijoz";
+
+// if (ism) {
+//   username = ism;
+// } else {
+//   alert("Ism kirgizmadingiz");
+// }
+
+// console.log(username);
