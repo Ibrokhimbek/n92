@@ -91,10 +91,18 @@
 
 //? Array methods => push, pop, unshift, shift
 const arr = [1, false, 3, undefined, 5, 6];
-//* push
+//* push()
 // const returnedData = arr.push("Ibrohim", 12, 12, 12, 12);
 // console.log(returnedData);
 //* pop()
 // const data = arr.pop();
 // console.log(arr);
 // console.log(data);
+
+//* unshift()
+// const data = arr.unshift("Ibrohim", "Ismoil");
+//* shift()
+// const data = arr.shift();
+// const data2 = arr.shift();
+// console.log(arr);
+// console.log(data2);
