@@ -106,3 +106,19 @@
 // const data2 = arr.shift();
 // console.log(arr);
 // console.log(data2);
+
+//? string methods
+//* ["I", "b", "r", "o", "h", "i", "m"];
+//* length
+// const username = "Ibrohim";
+// console.log(username.length);
+//* trim
+// const ism = prompt("name");
+// const trimmedName = ism.trim();
+// console.log(trimmedName);
+// const data = "       Hello         ";
+// console.log(data.trim());
+//* toUpperCase()
+// console.log("ibrohim".toUpperCase());
+//* toLoweCase()
+// console.log("IBROHIM".toLowerCase());
