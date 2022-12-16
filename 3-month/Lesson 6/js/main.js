@@ -60,3 +60,21 @@
 //? isNaN()
 // const result = "Ibrohim" - 345;
 // console.log(isNaN(result));
+
+//? Adding vs removing class
+const pEl = document.querySelector("#text");
+const btnAddEl = document.querySelector("#btnAdd");
+const btnRemoveEl = document.querySelector("#btnRemove");
+const btnToggleEl = document.querySelector("#btnToggle");
+
+btnToggleEl.onclick = function () {
+  pEl.classList.toggle("red");
+};
+
+btnAddEl.onclick = function () {
+  pEl.classList.add("red");
+};
+
+btnRemoveEl.onclick = function () {
+  pEl.classList.remove("red");
+};
