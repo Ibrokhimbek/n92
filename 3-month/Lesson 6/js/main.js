@@ -56,3 +56,7 @@
 // const captionEls2 = document.querySelectorAll("#text");
 // const captionEls3 = document.querySelectorAll("h2");
 // console.log(captionEls3);
+
+//? isNaN()
+// const result = "Ibrohim" - 345;
+// console.log(isNaN(result));
