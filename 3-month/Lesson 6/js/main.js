@@ -116,3 +116,15 @@
 //     console.log("Hello Hurmatli mijoz");
 //     break;
 // }
+
+//? styling element from js
+// const toggleBtn = document.querySelector("#btnToggle");
+// const pEl = document.querySelector("#text");
+
+// toggleBtn.addEventListener("click", function () {
+//   pEl.style.color = "red";
+// });
+
+// pEl.style.fontSize = "60px";
+// pEl.style.color = "blue";
+// console.dir(pEl);
