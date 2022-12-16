@@ -78,3 +78,22 @@
 // btnRemoveEl.onclick = function () {
 //   pEl.classList.remove("red");
 // };
+
+//? addEventListener()
+// const btnEl = document.querySelector("#btnToggle");
+
+// btnEl.addEventListener("dblclick", function () {
+//   console.log("Btn click");
+// });
+
+// btnEl.addEventListener("dblclick", function () {
+//   console.log("Ustidan yozvordim!");
+// });
+
+// btnEl.onclick = () => {
+//   console.log("btn clicked");
+// };
+
+// btnEl.onclick = () => {
+//   console.log("Ustidan yozvordi!");
+// };
