@@ -97,3 +97,22 @@
 // btnEl.onclick = () => {
 //   console.log("Ustidan yozvordi!");
 // };
+
+//? switch case
+// if (3 === 3) {
+//   console.log("Hello");
+// }
+
+// const username = prompt("Enter your username:");
+
+// switch (3) {
+//   case "3":
+//     console.log("Hello Ibrohim");
+//     break;
+//   case "Abbos":
+//     console.log("Hello Abbos");
+//     break;
+//   default:
+//     console.log("Hello Hurmatli mijoz");
+//     break;
+// }
