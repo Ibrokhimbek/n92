@@ -45,3 +45,14 @@
 //* split()
 // const str = "Qambar-maktabdan-katta besh-olib-keldi";
 // console.log(str.split(" "));
+
+//? selecting elements from html
+// const textEl = document.getElementById("text");
+// const textEl2 = document.querySelector("#text");
+// const captionEl = document.querySelector(".caption");
+// const captionEl2 = document.querySelector("h2");
+
+// const captionEls = document.querySelectorAll(".caption");
+// const captionEls2 = document.querySelectorAll("#text");
+// const captionEls3 = document.querySelectorAll("h2");
+// console.log(captionEls3);
