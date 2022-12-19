@@ -71,4 +71,64 @@
 //   clearInterval(time);
 // });
 
+// document.querySelector(
+//   ".cards"
+// ).innerHTML = `<div class="card" style="width: 18rem">
+// <img src="..." class="card-img-top" alt="..." />
+// <div class="card-body">
+//   <h5 class="card-title">Card title</h5>
+//   <p class="card-text">
+//     Some quick example text to build on the card title and make up the
+//     bulk of the card's content.
+//   </p>
+//   <a href="#" class="btn btn-primary">Go somewhere</a>
+// </div>
+// </div>`;
+
 //* Amaliyot
+function $(selector) {
+  return document.querySelector(selector);
+}
+
+const form = $("#form");
+const username = $("#name");
+const info = $("#info");
+const img = $("#img");
+const cardsEl = $(".cards");
+
+const data = [];
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const user = {
+    id: data.length,
+    username: username.value,
+    info: info.value,
+    img: img.value,
+  };
+
+  data.push(user);
+
+  render();
+});
+
+function render() {
+  cardsEl.innerHTML = "";
+
+  for (let i = 0; i < data.length; i++) {
+    const card = `
+    <div class="card" style="width: 18rem;">
+      <img src="${data[i].img}" class="card-img-top" alt="${data[i].username}">
+      <div class="card-body">
+        <h5 class="card-title">${data[i].username}</h5>
+        <p class="card-text">${data[i].info}</p>
+        <a href="#" class="btn btn-primary">More</a>
+      </div>
+    </div>
+    `;
+
+    //* cardsEl.innerHTML = cardsEl.innerHTML + card;
+    cardsEl.innerHTML += card;
+  }
+}
