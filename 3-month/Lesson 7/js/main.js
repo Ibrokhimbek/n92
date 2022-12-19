@@ -52,6 +52,8 @@
 //? removeAttribute()
 // document.querySelector("#clicker").removeAttribute("disabled");
 //? getAttribute()
+// const data = document.querySelector("#clicker").getAttribute("title");
+// console.log(data);
 //? setInterval() / clearInterval()
 //? setTimeOut() / clearTimeout()
 //? new Date()
