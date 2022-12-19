@@ -50,6 +50,7 @@
 
 // btnEl.setAttribute("disabled", null);
 //? removeAttribute()
+// document.querySelector("#clicker").removeAttribute("disabled");
 //? getAttribute()
 //? setInterval() / clearInterval()
 //? setTimeOut() / clearTimeout()
