@@ -70,3 +70,5 @@
 // document.querySelector("#cleaner").addEventListener("click", () => {
 //   clearInterval(time);
 // });
+
+//* Amaliyot
