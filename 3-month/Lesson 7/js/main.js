@@ -35,6 +35,12 @@
 
 // console.log(sum(6, 5));
 //? Creating elements
+// const h2 = document.createElement("h2");
+// h2.textContent = "Hello world!";
+// h2.classList.add("hello");
+// document.body.appendChild();
+// document.body.prepend(h2);
+
 //? setAttribute()
 //? removeAttribute()
 //? getAttribute()
