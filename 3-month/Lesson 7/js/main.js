@@ -54,8 +54,15 @@
 //? getAttribute()
 // const data = document.querySelector("#clicker").getAttribute("title");
 // console.log(data);
-//? setInterval() / clearInterval()
 //? setTimeOut() / clearTimeout()
+// const timer = setTimeout(function () {
+//   document.querySelector("#clicker").removeAttribute("disabled");
+// }, 5000);
+
+// document.querySelector("#cleaner").addEventListener("click", () => {
+//   clearTimeout(timer);
+// });
+//? setInterval() / clearInterval()
 //? new Date()
 //? padStart, padEnd
 //? practice (toggle menu)
