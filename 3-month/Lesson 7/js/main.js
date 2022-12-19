@@ -63,6 +63,10 @@
 //   clearTimeout(timer);
 // });
 //? setInterval() / clearInterval()
-//? new Date()
-//? padStart, padEnd
-//? practice (toggle menu)
+// const time = setInterval(() => {
+//   console.log("2 sekund o'tti");
+// }, 1);
+
+// document.querySelector("#cleaner").addEventListener("click", () => {
+//   clearInterval(time);
+// });
