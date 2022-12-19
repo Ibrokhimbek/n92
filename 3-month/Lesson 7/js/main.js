@@ -42,6 +42,13 @@
 // document.body.prepend(h2);
 
 //? setAttribute()
+// const btnEl = document.querySelector("#clicker");
+
+// btnEl.addEventListener("click", () => {
+//   document.querySelector("#checker").setAttribute("checked", true);
+// });
+
+// btnEl.setAttribute("disabled", null);
 //? removeAttribute()
 //? getAttribute()
 //? setInterval() / clearInterval()
