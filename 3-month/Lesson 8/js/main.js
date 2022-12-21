@@ -49,6 +49,9 @@
 // console.log(arr);
 
 //? infinite loop
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
 //? RegExp(), ASCII - American Standard Code for Information Interchange
 //? Keydown
 //? Keyup
