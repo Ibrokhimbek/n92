@@ -69,3 +69,14 @@
 //     console.log("Enter bosildi");
 //   }
 // });
+
+//* Amaliyot
+// const input = document.querySelector("#search");
+
+// document.addEventListener("keyup", (e) => {
+//   if (e.key === "Q") {
+//     input.focus();
+//   } else if (e.key === "c" && e.ctrlKey) {
+//     input.value = "";
+//   }
+// });
