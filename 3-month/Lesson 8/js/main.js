@@ -52,7 +52,20 @@
 // for (let i = 0; i < 10; i++) {
 //   console.log(i);
 // }
-//? RegExp(), ASCII - American Standard Code for Information Interchange
+
 //? Keydown
+// document.addEventListener("keydown", function (event) {
+//   console.log(event);
+// });
 //? Keyup
-//? Kuypress
+// document.addEventListener("keyup", function (event) {
+//   if (event.key === "Enter") {
+//     console.log("Enter bosildi");
+//   }
+// });
+//? Keypress
+// document.addEventListener("keypress", function (event) {
+//   if (event.key === "Enter") {
+//     console.log("Enter bosildi");
+//   }
+// });
