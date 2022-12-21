@@ -80,3 +80,25 @@
 //     input.value = "";
 //   }
 // });
+
+//? new Date()
+// const hours = document.querySelector("#hours");
+// const minutes = document.querySelector("#minutes");
+// const seconds = document.querySelector("#seconds");
+// let date = new Date();
+
+// setInterval(() => {
+//   date = new Date();
+//   hours.textContent = date.getHours();
+//   minutes.textContent = date.getMinutes();
+//   seconds.textContent =
+//     date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
+// }, 1000);
+
+// console.log(date.getMilliseconds());
+// console.log(date.getSeconds());
+// console.log(date.getMinutes());
+// console.log(date.getHours());
+// console.log(date.getDay());
+// console.log(date.getMonth());
+// console.log(date.getFullYear());
