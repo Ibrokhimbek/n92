@@ -102,3 +102,9 @@
 // console.log(date.getDay());
 // console.log(date.getMonth());
 // console.log(date.getFullYear());
+
+//? padStart vs padEnd
+// const str = "Hello world Pistonchi";
+// console.log(str);
+// console.log(str.padStart(30, "."));
+// console.log(str.padEnd(50, "."));
