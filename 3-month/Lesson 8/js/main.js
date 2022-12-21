@@ -108,3 +108,11 @@
 // console.log(str);
 // console.log(str.padStart(30, "."));
 // console.log(str.padEnd(50, "."));
+
+//? Toggle menu
+const toggleBtn = document.querySelector("#toggler");
+const nav = document.querySelector(".nav");
+
+toggleBtn.addEventListener("click", () => {
+  nav.classList.toggle("show");
+});
