@@ -24,3 +24,21 @@
 // }
 
 //? Todo
+const todoForm = document.querySelector("#todoForm");
+
+const todosArr = [];
+
+todoForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const todoCaption = event.target[0].value;
+
+  const todo = {
+    id: uuidv4(),
+    task: todoCaption,
+    isCompleted: false,
+    isEditing: false,
+  };
+
+  todosArr.push(todo);
+  console.log(todosArr);
+});
