@@ -28,26 +28,7 @@ const todoForm = document.querySelector("#todoForm");
 const cards = document.querySelector("#cards");
 const todoTogglers = document.querySelectorAll("#todoRadio");
 
-let todosArr = [
-  {
-    id: 1,
-    task: "Blabla",
-    isCompleted: false,
-    isEditing: false,
-  },
-  {
-    id: 2,
-    task: "Blabla",
-    isCompleted: false,
-    isEditing: false,
-  },
-  {
-    id: 3,
-    task: "Blabla",
-    isCompleted: false,
-    isEditing: false,
-  },
-];
+let todosArr = [];
 
 render();
 
@@ -56,7 +37,7 @@ todoForm.addEventListener("submit", (event) => {
   const todoCaption = event.target[0].value;
 
   const todo = {
-    id: uuidv4(),
+    id: todosArr[todosArr.length - 1]?.id + 1 || 0,
     task: todoCaption,
     isCompleted: false,
     isEditing: false,
@@ -72,7 +53,20 @@ function render() {
   cards.innerHTML = "";
   for (let i = 0; i < todosArr.length; i++) {
     const todo = todosArr[i];
-    const template = `
+    const template = todo.isEditing
+      ? ` <form class="col-md-3 p-3 rounded bg-light" id="editForm" onsubmit="return editTodo(event, ${todo.id})">
+            <input type="text" value="${todo.task}" class="w-100" />
+            <div class="d-flex justify-content-end pt-3">
+              <button
+              class="btn btn-warning"
+              type="submit"
+              id="save"
+              >
+                <i class="fas fa-floppy-disk"></i>
+              </button>
+            </div>
+          </form>`
+      : `
       <div class="col-md-3 p-3 ${
         todo.isCompleted ? "bg-success text-light" : "bg-light"
       } rounded">
@@ -81,11 +75,11 @@ function render() {
             class="form-check-input"
             type="checkbox"
             role="switch"
-            id="todoRadio"
+            id="${todo.id}"
             onchange="toggleCompleted(${todo.id})"
             ${todo.isCompleted ? "checked" : ""}
           />
-          <label class="form-check-label" for="todoRadio"
+          <label class="form-check-label" for="${todo.id}"
             >${todo.task}</label
           >
           <div class="d-flex justify-content-end gap-3 mt-3">
@@ -94,6 +88,7 @@ function render() {
               type="button"
               id="edit_btn"
               data-id="${todo.id}"
+              onclick="toggleEditing(${todo.id})"
             >
               <i class="fas fa-pen"></i>
             </button>
@@ -114,7 +109,18 @@ function toggleCompleted(id) {
   for (let i = 0; i < todosArr.length; i++) {
     const todo = todosArr[i];
     if (todo.id === id) {
+      console.log(todo);
       todo.isCompleted = !todo.isCompleted;
+    }
+  }
+  render();
+}
+
+function toggleEditing(id) {
+  for (let i = 0; i < todosArr.length; i++) {
+    const todo = todosArr[i];
+    if (todo.id === id) {
+      todo.isEditing = !todo.isEditing;
     }
   }
   render();
@@ -134,3 +140,36 @@ function deleteTodo(id) {
     render();
   }
 }
+
+function editTodo(e, id) {
+  e.preventDefault();
+
+  for (let i = 0; i < todosArr.length; i++) {
+    const todo = todosArr[i];
+    if (todo.id == id) {
+      todo.task = e.target[0].value;
+      todo.isEditing = !todo.isEditing;
+    }
+  }
+
+  render();
+}
+
+// const editForms = document.querySelectorAll("#editForm");
+// console.log(editForms);
+// for (let i = 0; i < editForms.length; i++) {
+//   editForms[i].addEventListener("submit", function (event) {
+//     event.preventDefault();
+//     console.log(event);
+
+//     for (let j = 0; j < todosArr.length; j++) {
+//       const todo = todosArr[j];
+//       if (todo.id == this.dataset.id) {
+//         todo.task = event.target[0].value;
+//         todo.isEditing = !todo.isEditing;
+//       }
+//     }
+
+//     render();
+//   });
+// }
