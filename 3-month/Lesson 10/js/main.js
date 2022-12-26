@@ -24,3 +24,10 @@
 // });
 
 // console.log(data);
+
+AOS.init({
+  disable: "phone",
+  offset: 400,
+  delay: 200,
+  duration: 500,
+});

@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 100vh auto;
+}
+
+.box {
+  width: 900px;
+  height: 300px;
+  font-size: 90px;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.box:nth-child(even) {
+  margin-left: auto;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.brown {
+  background-color: brown;
+}
+.green {
+  background-color: green;
+}
