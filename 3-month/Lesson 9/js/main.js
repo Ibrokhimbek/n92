@@ -46,7 +46,6 @@ todoForm.addEventListener("submit", (event) => {
   todosArr.push(todo);
   render();
   event.target[0].value = "";
-  console.log(todosArr);
 });
 
 function render() {
@@ -101,7 +100,8 @@ function render() {
         </div>
       </div>`;
 
-    cards.innerHTML = cards.innerHTML + template;
+    //* cards.innerHTML = cards.innerHTML + template;
+    cards.innerHTML += template;
   }
 }
 
