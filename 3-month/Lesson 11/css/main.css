@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.swiper {
+  overflow: unset !important;
+  position: relative;
+}
+
+.hero {
+  padding: 100px 0;
+  background: linear-gradient(90deg, white 65%, #293bdc 35%);
+}
+
+.swiper-wrapper {
+  transition-duration: 4000ms !important;
+}
+
+.myslide {
+  display: flex;
+  align-items: center;
+}
+
+.slide__info,
+.slide__img {
+  width: 50%;
+}
+
+.slide__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.slide__info h2 {
+  max-width: 710px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #293bdc;
+  margin-bottom: 20px;
+}
+
+.slide__info h2 + p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn {
+  position: relative;
+  padding: 15px 40px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+  border: 4px solid #293bdc;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: 30px;
+  width: 20px;
+  height: 4px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #293bdc;
+  color: white;
+}
+
+.btn:hover::before {
+  transform: translateX(calc(-100% * 5));
+}
+
+.swiper__btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.button-next,
+.button-prev {
+  padding: 10px 20px;
+  background-color: #293bdc;
+  border: 1px solid white;
+  color: white;
+}
+
+.button-next:hover,
+.button-prev:hover {
+  background-color: white;
+  color: #293bdc;
+}
+
+.btn-other {
+  position: relative;
+  color: black;
+  border: 2px solid black;
+  padding: 15px 40px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: all 0.9s ease-out;
+  overflow: hidden;
+}
+
+.btn-other::before {
+  content: "";
+  width: 280px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  transform: translateX(-230px) translateY(-150px);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 130px;
+  transition: all .9s ease;
+  z-index: -1;
+}
+
+.btn-other:hover {
+  color: white;
+}
+
+.btn-other:hover::before {
+  transform: translateX(-100px) translateY(-50px);
+}
