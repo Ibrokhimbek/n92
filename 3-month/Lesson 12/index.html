@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 12</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/tailwind.config.js"></script>
+    <style>
+      .btn {
+        @apply hidden bg-transparent text-white py-2 px-4 rounded-full border-[1px] border-white transition-all duration-400 hover:bg-white hover:text-blue md:block;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header bg-blue py-8 relative">
+      <div
+        class="container mx-auto px-4 flex gap-y-8 items-center justify-between"
+      >
+        <a href="index.html" class="z-10">
+          <img src="./img/logo__ids.svg" alt="ids logo" class="block" />
+        </a>
+        <ul
+          class="flex gap-[40px] absolute top-0 left-0 flex-col bg-blue h-screen w-[40%] pt-[150px] transition-all duration-500 translate-x-[-100%] pl-8 md:static md:flex-row md:h-auto md:p-0 md:translate-x-0 md:w-auto"
+        >
+          <li>
+            <a
+              href="#"
+              class="text-xl text-white pb-2 border-b-2 border-transparent transition-all duration-300 hover:border-white"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-xl text-white pb-2 border-b-2 border-transparent transition-all duration-300 hover:border-white"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-xl text-white pb-2 border-b-2 border-transparent transition-all duration-300 hover:border-white"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+
+        <a
+          href="#"
+          class="hidden bg-transparent text-white py-2 px-4 rounded-full border-[1px] border-white transition-all duration-400 hover:bg-white hover:text-blue md:block"
+        >
+          Sign up
+        </a>
+        <button class="block md:hidden">burger</button>
+      </div>
+    </header>
+
+    <script>
+      document.querySelector("button").addEventListener("click", () => {
+        document.querySelector("ul").classList.toggle("translate-x-0");
+      });
+    </script>
+  </body>
+</html>
