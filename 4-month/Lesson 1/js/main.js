@@ -109,3 +109,16 @@ let todos = [
 // const filteredTodos = myfilter(todos, (element) => element.id !== 2);
 
 // console.log(filteredTodos);
+
+//? reduce
+// const nums = [1, 2, 3, 4];
+
+// const sum = nums.reduce((prevVal, currVal) => {
+//   if (currVal % 2 === 0) {
+//     return prevVal + currVal;
+//   } else {
+//     return prevVal;
+//   }
+// }, 0);
+
+// console.log(sum);
