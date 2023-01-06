@@ -12,32 +12,32 @@
 // })
 
 //? utils function
-// let todos = [
-//   {
-//     id: 1,
-//     task: "N92",
-//     isCompleted: false,
-//     isEditing: false,
-//   },
-//   {
-//     id: 2,
-//     task: "N92",
-//     isCompleted: false,
-//     isEditing: false,
-//   },
-//   {
-//     id: 3,
-//     task: "N92",
-//     isCompleted: false,
-//     isEditing: false,
-//   },
-//   {
-//     id: 4,
-//     task: "N92",
-//     isCompleted: false,
-//     isEditing: false,
-//   },
-// ];
+let todos = [
+  {
+    id: 1,
+    task: "N92",
+    isCompleted: false,
+    isEditing: false,
+  },
+  {
+    id: 2,
+    task: "N92",
+    isCompleted: false,
+    isEditing: false,
+  },
+  {
+    id: 3,
+    task: "N92",
+    isCompleted: false,
+    isEditing: false,
+  },
+  {
+    id: 4,
+    task: "N92",
+    isCompleted: false,
+    isEditing: false,
+  },
+];
 
 // function forEach(arr, callback) {
 //   for (let i = 0; i < arr.length; i++) {
@@ -85,3 +85,27 @@
 // });
 
 // console.log(newArray);
+
+//? filter
+// const filteredArray = todos.filter((element, index, arr) => {
+//   return element.id !== 2;
+// });
+
+// todos = filteredArray
+
+// console.log(todos);
+
+// function myfilter(arr, cb) {
+//   const result = [];
+//   for(let i = 0; i < arr.length; i++) {
+//     const returnedData = cb(arr[i], i, arr);
+//     if (returnedData) {
+//       result.push(arr[i]);
+//     }
+//   }
+//   return result;
+// }
+
+// const filteredTodos = myfilter(todos, (element) => element.id !== 2);
+
+// console.log(filteredTodos);
