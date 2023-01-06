@@ -122,3 +122,10 @@ let todos = [
 // }, 0);
 
 // console.log(sum);
+
+//? find
+// const foundData = todos.find((element, index, arr) => {
+//   return element.id === 2;
+// });
+
+// console.log(foundData);
