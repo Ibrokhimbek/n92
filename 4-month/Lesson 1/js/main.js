@@ -129,3 +129,18 @@ let todos = [
 // });
 
 // console.log(foundData);
+
+//? loop from backwards
+//* for (let i = 0; i <= 10; i++) {
+//*   console.log(i);
+//* }
+
+//* for (let i = todos.length - 1; i >= 0; i--) {
+//*   console.log(todos[i]);
+//* }
+
+//? reverse
+
+const reversedArray = todos.reverse();
+
+console.log(reversedArray);
