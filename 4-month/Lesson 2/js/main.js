@@ -63,3 +63,20 @@
 // }
 
 // console.log(user);
+
+//? Hoisting in javascript
+// user = "Ibrohim";
+
+// console.log(j);
+
+// var user;
+
+// sayHello();
+
+// function sayHello() {
+//   console.log("Hello world");
+// }
+
+// var sayHello2 = function () {
+//   console.log("Hello world 2");
+// };
