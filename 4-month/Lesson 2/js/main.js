@@ -41,25 +41,25 @@
 
 // console.log(result);
 //? Global scope
-const username = "Ibrohim";
+// const username = "Ibrohim";
 
-function sayName() {
-  //? function/local scope
-  const lalaku = "Lalaku";
-}
+// function sayName() {
+//   //? function/local scope
+//   const lalaku = "Lalaku";
+// }
 
 //? block scope
-{
-  var todo = "Mushukka ovqat berish";
-}
+// {
+//   var todo = "Mushukka ovqat berish";
+// }
 
-console.log(todo);
+// console.log(todo);
 
 // let val = null;
 
-if (!0) {
-  var user = "Botir";
-  // val = user;
-}
+// if (!0) {
+//   var user = "Botir";
+//   // val = user;
+// }
 
-console.log(user);
+// console.log(user);
