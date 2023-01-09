@@ -22,3 +22,21 @@
 // });
 
 // console.log(nums);
+
+//? some
+// const arr = [1, 5, 3, 5, 7, 0];
+
+// const result = arr.some((element) => {
+//   return element === 0;
+// });
+
+// console.log(result);
+
+//? every
+// const arr = [1, 5, 3, 5, 7];
+
+// const result = arr.every((element) => {
+//   return element !== 0;
+// });
+
+// console.log(result);
