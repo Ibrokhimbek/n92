@@ -26,3 +26,14 @@
 // const stringUser = JSON.stringify(user);
 
 // console.log(JSON.parse(stringUser));
+
+//? localStorage, cookie storage, session storage
+// localStorage.setItem(
+//   "users",
+//   JSON.stringify({
+//     name: "Userbek",
+//     age: 199,
+//   })
+// );
+
+// console.log(JSON.parse(localStorage.getItem("users")));
