@@ -56,3 +56,7 @@
 //   localStorage.setItem("users", JSON.stringify(users));
 //   document.querySelector("#users").innerHTML = users.join(", ");
 // }
+
+// localStorage.clear(); // deletes all items in localStorage
+
+// localStorage.removeItem("users");
