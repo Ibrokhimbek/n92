@@ -39,23 +39,23 @@
 // console.log(JSON.parse(localStorage.getItem("users")));
 
 //? Amaliyot
-// const formEl = document.querySelector("#form");
+const formEl = document.querySelector("#form");
 
-// let users = JSON.parse(localStorage.getItem("users")) || [];
+let users = JSON.parse(localStorage.getItem("users")) || [];
 
-// render();
+render();
 
-// formEl.addEventListener("submit", (event) => {
-//   event.preventDefault();
-//   users.push(event.target[0].value);
-//   event.target[0].value = "";
-//   render();
-// });
+formEl.addEventListener("submit", (event) => {
+  event.preventDefault();
+  users.push(event.target[0].value);
+  event.target[0].value = "";
+  render();
+});
 
-// function render() {
-//   localStorage.setItem("users", JSON.stringify(users));
-//   document.querySelector("#users").innerHTML = users.join(", ");
-// }
+function render() {
+  localStorage.setItem("users", JSON.stringify(users));
+  document.querySelector("#users").innerHTML = users.join(", ");
+}
 
 // localStorage.clear(); // deletes all items in localStorage
 
