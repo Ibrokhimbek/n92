@@ -94,7 +94,7 @@
 
 // function workOnData(arr) {
 //   const result = [];
-//   users.forEach((user) => {
+//   arr.forEach((user) => {
 //     result.push({
 //       ...user,
 //       status: "Student",
