@@ -105,3 +105,31 @@
 // }
 
 // console.log(workOnData(users));
+
+//? fetch / CRUD => Create, Read, Update, Delete
+
+// const nameInputEl = document.querySelector("#nameInput");
+
+// document.querySelector("#sendBtn").addEventListener("click", () => {
+//   const name = nameInputEl.value;
+//   fetch(`https://api.genderize.io?name=${name}`)
+//     .then((res) => res.json())
+//     .then((res) => {
+//       console.log(res);
+//       document.querySelector("#result").innerHTML = res.gender.toUpperCase();
+//     });
+// });
+
+// let isLoading = true;
+
+// async function myFunc() {
+//   isLoading = true;
+//   if (isLoading) document.querySelector("#result").innerHTML = "...Loading";
+//   const data = await fetch("https://api.genderize.io?name=Bobur");
+//   const result = await data.json();
+//   isLoading = false;
+//   document.querySelector("#result").innerHTML = result.gender;
+//   console.log(result);
+// }
+
+// myFunc();
