@@ -51,3 +51,27 @@
 
 // console.log(users);
 // console.log(users2);
+
+//? Shallow copy vs Deep copy
+//* Shallow copy
+// const user = { name: "Eshmat", surname: "Toshmatov", age: 42 };
+
+// const user2 = user;
+// user2.name = "Palonchi";
+
+// console.log(user);
+// console.log(user2);
+
+//* Deep copy
+// const user = {
+//   friends: { name: "Palonchi" },
+//   name: "Eshmat",
+//   surname: "Toshmatov",
+//   age: 42,
+// };
+// const user2 = { ...user.friends };
+// user.name = "Mishkabek";
+// user2.name = "Palonchi";
+
+// console.log(user);
+// console.log(user2);
