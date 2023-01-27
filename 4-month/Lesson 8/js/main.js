@@ -36,3 +36,18 @@
 // const { name, surname, ...others } = user;
 
 // console.log(others);
+
+//* Spread
+// const user = { name: "Eshmat", surname: "Toshmatov", age: 42 };
+
+// const user2 = { id: 1, ...user };
+
+// console.log(user);
+// console.log(user2);
+
+// const users = ["Sardor", "Shaxzod", "Ozod", "Abdulla"];
+
+// const users2 = [...users, "Mishkabek", "SDDbek"];
+
+// console.log(users);
+// console.log(users2);
