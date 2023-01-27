@@ -75,3 +75,11 @@
 
 // console.log(user);
 // console.log(user2);
+
+//? push method
+// function myPush(arr, ...data) {
+//   const arr2 = [...arr, ...data];
+//   return arr2;
+// }
+
+// console.log(myPush([1, 2, 3], "Ibrohim", "Ismoil"));
