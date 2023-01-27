@@ -24,3 +24,15 @@
 // }
 // bla(users);
 // console.log(user1);
+
+//? Rest vs Spread operatorlari
+//* Rest
+// const users = ["Sardor", "Shaxzod", "Ozod", "Abdulla"];
+// const [user1, ...otherUsers] = users;
+
+// console.log(otherUsers);
+
+// const user = { name: "Eshmat", surname: "Toshmatov", age: 42 };
+// const { name, surname, ...others } = user;
+
+// console.log(others);
