@@ -83,3 +83,25 @@
 // }
 
 // console.log(myPush([1, 2, 3], "Ibrohim", "Ismoil"));
+
+//? spread amaliyot
+// const users = [
+//   { id: 1, name: "Sardor", age: 20 },
+//   { id: 2, name: "Abdulla", age: 20 },
+//   { id: 3, name: "Ozod", age: 20 },
+//   { id: 4, name: "Shaxzod", age: 20 },
+// ];
+
+// function workOnData(arr) {
+//   const result = [];
+//   users.forEach((user) => {
+//     result.push({
+//       ...user,
+//       status: "Student",
+//     });
+//   });
+
+//   return result;
+// }
+
+// console.log(workOnData(users));
