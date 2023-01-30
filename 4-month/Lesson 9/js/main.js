@@ -70,3 +70,11 @@
 // variable = true;
 
 // console.log("Hello world");
+
+//? Optional chaining
+// const user = {
+//   names: "Palonchi",
+//   surname: "Pistonchiyev",
+// };
+
+// console.log(user?.name || "Hello world");
