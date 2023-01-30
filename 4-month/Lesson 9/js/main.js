@@ -50,3 +50,8 @@
 //   .then((res) => {
 //     console.log(res);
 //   });
+
+//? charCodeAt vs fromCharcode
+// const user = "Ibrohim";
+// console.log(user.charCodeAt(0));
+// console.log(String.fromCharCode(73, 66, 69));
