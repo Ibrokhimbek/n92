@@ -55,3 +55,18 @@
 // const user = "Ibrohim";
 // console.log(user.charCodeAt(0));
 // console.log(String.fromCharCode(73, 66, 69));
+
+//? try catch
+// new Promise().then().catch().finally()
+// try {
+//   const variable = false;
+//   variable = true;
+// } catch (err) {
+//   // throw new Error(err);
+//   console.log(err);
+// }
+
+// const variable = false;
+// variable = true;
+
+// console.log("Hello world");
