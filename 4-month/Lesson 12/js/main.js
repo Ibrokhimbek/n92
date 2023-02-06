@@ -59,3 +59,19 @@
 // user.showName.call(admin, "Salom", 20);
 // user.showName.apply(admin, ["Hello", 40]);
 // user.showName.bind(admin)("Hallo!", 60);
+
+//? Contructor function
+// function Admin(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// const MyAdmin = new Admin("IsomTv", 25);
+// const SecondAdmin = new Admin("Adminbek", 24);
+
+// Admin.prototype.info = function () {
+//   return this.name;
+// };
+
+// console.log(SecondAdmin.info());
+// console.log(MyAdmin.info());
