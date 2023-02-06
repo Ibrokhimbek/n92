@@ -75,3 +75,45 @@
 
 // console.log(SecondAdmin.info());
 // console.log(MyAdmin.info());
+
+//? Amaliyot
+const todos = JSON.parse(localStorage.getItem("todos")) || [];
+
+class Todo {
+  constructor(task) {
+    this.id = todos[todos.length - 1]?.id + 1 || 0;
+    this.task = task;
+    this.isCompleted = false;
+    this.isEditing = false;
+  }
+
+  save() {
+    todos.push(this);
+  }
+
+  static fetchAll(cb) {
+    cb(todos);
+  }
+
+  static findById(id, cb) {
+    const foundTodo = todos.find((item) => item.id == id);
+    cb(foundTodo);
+  }
+}
+
+const myForm = document.querySelector("#myForm");
+
+myForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const todo = new Todo(event.target[0].value);
+  todo.save();
+  console.log(todos);
+});
+
+Todo.fetchAll((data) => {
+  
+});
+
+Todo.findById(2, (todo) => {
+
+})
